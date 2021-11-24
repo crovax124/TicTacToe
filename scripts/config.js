@@ -10,6 +10,7 @@ function closePlayerConfig() {
   backdropElement.style.display = "none";
   formElement.firstElementChild.classList.remove("error");
   errorsOutput.textContent = "";
+  formElement.firstElementChild.lastElementChild.value = ''; //Dom drilling übung
 }
 
 function savePlayerConfig(event) {
