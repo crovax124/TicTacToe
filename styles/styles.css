@@ -1,6 +1,7 @@
 :root {
   --main-bg-color: rgb(140, 0, 255);
   --hover-bg-color: rgb(53, 9, 136);
+  --error-color: rgb(136, 2, 2);
 }
 
 body {
